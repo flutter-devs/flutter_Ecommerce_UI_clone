@@ -3,7 +3,7 @@
 A sample application to show Flipkart Flutter Clone. 
 
 # Demo
-<img height="945px" width="480px" src="https://github.com/flutter-devs/flutter_Flipkart_UI_clone/blob/master/screens/demo.gif">
+<img height="480px" width="244px" src="https://github.com/flutter-devs/flutter_Flipkart_UI_clone/blob/master/screens/demo.gif">
 
 
 
