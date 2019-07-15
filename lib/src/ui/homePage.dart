@@ -14,7 +14,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         elevation: 0,
         title: Image.asset(
-          'assets/fk-plus_043837.png',
+          'assets/flutter1.png',
           height: MediaQuery.of(context).size.height / 2,
           width: MediaQuery.of(context).size.width / 4,
         ),

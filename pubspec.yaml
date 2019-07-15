@@ -46,6 +46,8 @@ flutter:
     - assets/fk-plus_043837.png
     - assets/logo.png
     - assets/powered_by.png
+    - assets/flutter1.png
+    - assets/flutter2.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

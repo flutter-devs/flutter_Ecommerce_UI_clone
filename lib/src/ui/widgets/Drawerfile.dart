@@ -18,7 +18,7 @@ class _DrawerfileState extends State<Drawerfile> {
 
   addDrawerItem() {
     drawerItemModel = List<DrawerItemModel>();
-    drawerItemModel.add(DrawerItemModel("Flipkart Plus Zone",
+    drawerItemModel.add(DrawerItemModel("Flutter Devs Plus Zone",
         "https://rukminim1.flixcart.com/www/50/50/promos/11/07/2018/70e5346e-fce4-4718-8e56-27be8492faa5.png?q=80"));
     drawerItemModel.add(DrawerItemModel("Electronics",
         "https://rukminim1.flixcart.com/www/50/50/promos/31/10/2016/f7634981-4fd5-4127-9b93-9f57606dccd3.png?q=80"));
@@ -122,11 +122,8 @@ class _DrawerfileState extends State<Drawerfile> {
                 Icons.home,
                 color: Colors.white,
               ),
-              trailing: Image.network(
-                'https://img1a.flixcart.com/www/linchpin/batman-returns/images/logo_lite-cbb357.png',
-                height: size.height / 20,
-                scale: 1,
-              ),
+              trailing:Image.asset("assets/flutter2.png", height: size.height / 20,
+                width: size.width/10,)
             ),
           ),
         ),

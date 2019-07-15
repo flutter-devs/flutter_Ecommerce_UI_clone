@@ -28,7 +28,7 @@ class _ThirdlistState extends State<Thirdlist> {
           Expanded(
             child: Container(
               child: Image.network(
-                  'https://rukminim1.flixcart.com/flap/267/284/image/46424bd07a6d488d.jpg?q=90'),
+                  'https://rukminim1.flixcart.com/flap/259/276/image/0ae80382c0fd6f32.jpg?q=90'),
             ),
           ),
         ],
