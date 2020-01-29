@@ -27,8 +27,8 @@ class _FifthlistState extends State<Fifthlist> {
               padding: const EdgeInsets.only(left: 20,bottom: 8),
               child: Text('Sponsored',style: TextStyle(color: Colors.grey),),
             ),
-            Image.network(
-              'https://rukminim1.flixcart.com/flap/742/398/image/b6516c8b39e45675.jpg?q=90',
+            Image.asset(
+              "assets/power_bank.png",
               height: MediaQuery.of(context).size.height / 3.5,
               width: MediaQuery.of(context).size.width,
             )

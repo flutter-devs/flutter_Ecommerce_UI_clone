@@ -15,20 +15,24 @@ class _ThirdlistState extends State<Thirdlist> {
         children: <Widget>[
           Expanded(
             child: Container(
-              child: Image.network(
-                  'https://rukminim1.flixcart.com/flap/267/284/image/98cc1dc1cf46f8b2.jpg?q=90'),
+              child: Image.asset(
+               "assets/telivision.png"
+              ),
+
             ),
           ),
           Expanded(
             child: Container(
-              child: Image.network(
-                  'https://rukminim1.flixcart.com/flap/267/284/image/2c958a68d47f14df.jpg?q=90'),
+              child: Image.asset(
+                "assets/running.png"
+              ),
             ),
           ),
           Expanded(
             child: Container(
-              child: Image.network(
-                  'https://rukminim1.flixcart.com/flap/259/276/image/0ae80382c0fd6f32.jpg?q=90'),
+              child: Image.asset(
+                  "assets/mobile_top.png"
+              ),
             ),
           ),
         ],

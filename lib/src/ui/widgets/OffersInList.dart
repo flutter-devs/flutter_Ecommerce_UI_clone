@@ -13,8 +13,8 @@ class _SecondlistState extends State<Secondlist> {
         padding: const EdgeInsets.only(left: 2, right: 2),
         child: ClipRRect(
           borderRadius: BorderRadius.circular(6),
-          child: Image.network(
-            'https://rukminim1.flixcart.com/flap/656/352/image/2fdcb26eedf83b2f.jpg?q=90',
+          child: Image.asset(
+            "assets/banner_one.png",
             height: MediaQuery.of(context).size.height / 4,
           ),
         ),

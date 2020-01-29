@@ -18,19 +18,19 @@ class _SeventhlistState extends State<Seventhlist> {
   addDealItem() {
     deal = List<deals>();
     deal.add(deals(
-        'https://rukminim1.flixcart.com/image/240/240/jt641ow0/mobile/d/w/k/mi-redmi-note-7-pro-na-original-imafe4bbyfppbnuu.jpeg?q=80',
+        "assets/phone.png",
         'Redmi Note 7 Pro',
         'From @44,900'));
     deal.add(deals(
-        'https://rukminim1.flixcart.com/image/240/240/jvtujrk0/mobile/h/6/d/mi-redmi-note-7s-m1901f71-original-imafe48yggp2za54.jpeg?q=80',
+        "assets/phone_two.png",
         'Redmi Note 7s',
         'Trending Range'));
     deal.add(deals(
-        'https://rukminim1.flixcart.com/image/240/240/jtrjngw0/mobile/s/r/t/realme-3-rmx1825-original-imaferd5zvhurjhg.jpeg?q=80',
+        "assets/phone_three.png",
         'Realme 3',
         '1TB HDD'));
     deal.add(deals(
-        'https://rukminim1.flixcart.com/image/240/240/jsyyufk0/mobile/n/5/r/samsung-galaxy-a30-sm-a305fzbfins-original-imafefgg2vhezgr7.jpeg?q=80',
+        "assets/nokia.png",
         'Samsung A30',
         'From @10,999'));
   }
@@ -43,7 +43,7 @@ class _SeventhlistState extends State<Seventhlist> {
           Container(
             height: MediaQuery.of(context).size.height / 7,
             width: MediaQuery.of(context).size.width / 4,
-            child: Image.network(deal[index].imageUrl),
+            child: Image.asset(deal[index].imageUrl),
           ),
           Padding(
             padding: const EdgeInsets.only(top: 10),
@@ -73,14 +73,14 @@ class _SeventhlistState extends State<Seventhlist> {
         children: <Widget>[
           Container(
             height: size.height / 1.7,
-            color: Color(0xffb6e4d2),
+            color: Color(0xffF5E4D2),
           ),
           Container(
             height: size.height / 7,
             width: size.width,
             alignment: Alignment.topCenter,
-            child: Image.network(
-              'https://rukminim1.flixcart.com/flap/800/178/image/eeb594865936b505.jpg?q=90',
+            child: Image.asset(
+             "assets/banner_two.png"
             ),
           ),
           Positioned(

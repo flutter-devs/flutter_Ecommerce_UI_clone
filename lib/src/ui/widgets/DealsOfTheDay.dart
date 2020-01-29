@@ -18,20 +18,20 @@ class _FourthlistState extends State<Fourthlist> {
   addDealItem() {
     deal = List<deals>();
     deal.add(deals(
-        'https://rukminim1.flixcart.com/image/240/320/jtsz3bk0/dress/w/g/v/m-8159-zima-leto-original-imaffypag2nrk4wb.jpeg?q=80',
+        "assets/female.png",
         'Dresses & Tops',
         'From 99'));
     deal.add(deals(
-        'https://rukminim1.flixcart.com/flap/240/240/image/787a97ab295b1253.jpg?q=80',
-        'Juicer Mixer',
+        "assets/watch.png",
+        'Watches',
         'Upto 70% Off'));
     deal.add(deals(
-        'https://rukminim1.flixcart.com/flap/240/240/image/529f25178baf02ee.jpg?q=80',
-        'Hand Tools',
+        "assets/male_modle.png",
+        'T Shirts',
         'Starting @99'));
     deal.add(deals(
-        'https://rukminim1.flixcart.com/flap/240/240/image/ef402bccf2a543e8.jpg?q=80',
-        'Memory Cards',
+        "assets/shirt_modle.png",
+        'Casual Shirts',
         'Extra 100 Off'));
   }
 
@@ -43,7 +43,7 @@ class _FourthlistState extends State<Fourthlist> {
           Container(
             height: MediaQuery.of(context).size.height / 6.5,
             width: MediaQuery.of(context).size.width / 4,
-            child: Image.network(deal[index].imageUrl),
+            child: Image.asset(deal[index].imageUrl),
           ),
           Text(
             '${deal[index].name}',
@@ -70,14 +70,14 @@ class _FourthlistState extends State<Fourthlist> {
         children: <Widget>[
           Container(
             height: size.height / 1.7,
-            color: Color(0xff2874F0),
+            color: Color(0xffFFBAF0),
           ),
           Container(
             height: size.height / 7,
             width: size.width,
             alignment: Alignment.topCenter,
-            child: Image.network(
-              'https://rukminim1.flixcart.com/flap/800/178/image/e76ebd.jpg?q=90',
+            child: Image.asset(
+              "assets/banner_three.png",
             ),
           ),
           Positioned(

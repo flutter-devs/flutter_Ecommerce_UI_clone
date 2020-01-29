@@ -48,6 +48,33 @@ flutter:
     - assets/powered_by.png
     - assets/flutter1.png
     - assets/flutter2.png
+    - assets/applinces.png
+    - assets/beauty.png
+    - assets/electronic.png
+    - assets/fashion.png
+    - assets/grocery.png
+    - assets/mobiles.png
+    - assets/sports_and_more.png
+    - assets/toys_and_babby.png
+    - assets/home.png
+    - assets/hair_dryer.png
+    - assets/laptop.png
+    - assets/power_bank.png
+    - assets/male_modle.png
+    - assets/shirt_modle.png
+    - assets/female.png
+    - assets/watch.png
+    - assets/banner_one.png
+    - assets/phone_two.png
+    - assets/phone_three.png
+    - assets/phone.png
+    - assets/nokia.png
+    - assets/banner_two.png
+    - assets/banner_three.png
+    - assets/mobile_top.png
+    - assets/telivision.png
+    - assets/running.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

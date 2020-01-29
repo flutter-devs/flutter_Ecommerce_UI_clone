@@ -14,12 +14,12 @@ class _SixthlistState extends State<Sixthlist> {
         child: Row(
           children: <Widget>[
             Expanded(
-              child: Image.network(
-                  'https://rukminim1.flixcart.com/flap/400/610/image/14d50e90c8413811.jpg?q=90'),
+              child: Image.asset(
+                  "assets/hair_dryer.png"),
             ),
             Expanded(
-              child: Image.network(
-                  'https://rukminim1.flixcart.com/flap/400/610/image/fe6fb023f400c86f.jpg?q=90'),
+              child: Image.asset(
+                  "assets/laptop.png"),
             )
           ],
         ),
