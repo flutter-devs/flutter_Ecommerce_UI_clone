@@ -1,6 +1,6 @@
-# Flutter Flipkart UI Demo
+# Flutter Ecommerce App UI Demo
 
-A sample application to show Flipkart Flutter Clone. 
+A sample application to show an Ecommerce App Flutter Clone. 
 
 # Demo
 <img height="480px" width="244px" src="https://github.com/flutter-devs/flutter_Flipkart_UI_clone/blob/master/screens/demo.gif">
