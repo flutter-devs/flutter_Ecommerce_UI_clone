@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
         title: Image.asset(
           'assets/flutter1.png',
           height: MediaQuery.of(context).size.height / 2,
-          width: MediaQuery.of(context).size.width / 4,
+          width: MediaQuery.of(context).size.width / 4
         ),
         actions: <Widget>[
           Icon(
@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
             padding: const EdgeInsets.only(left: 20, right: 20),
             child: Icon(
               Icons.shopping_cart,
-              size: 20,
+              size: 20
             ),
           )
         ],
