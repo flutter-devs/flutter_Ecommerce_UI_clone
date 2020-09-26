@@ -31,7 +31,7 @@ class SplashScreenState extends State<AnimatedSplashScreen>
     animationController = new AnimationController(
         vsync: this, duration: new Duration(seconds: 2));
     animation =
-    new CurvedAnimation(parent: animationController, curve: Curves.easeOut);
+        new CurvedAnimation(parent: animationController, curve: Curves.easeOut);
 
     animation.addListener(() => this.setState(() {}));
     animationController.forward();
@@ -52,18 +52,22 @@ class SplashScreenState extends State<AnimatedSplashScreen>
             mainAxisAlignment: MainAxisAlignment.end,
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
-
-              Padding(padding: EdgeInsets.only(bottom: 30.0),child:new Image.asset('assets/powered_by.png',height: 25.0,fit: BoxFit.scaleDown,))
-
-
-            ],),
+              Padding(
+                  padding: EdgeInsets.only(bottom: 30.0),
+                  child: new Image.asset(
+                    'assets/powered_by.png',
+                    height: 35.0,
+                    fit: BoxFit.scaleDown,
+                  ))
+            ],
+          ),
           new Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               new Image.asset(
                 'assets/logo.png',
-                width: animation.value * 250,
-                height: animation.value * 250,
+                width: animation.value * 300,
+                height: animation.value * 300,
               ),
             ],
           ),

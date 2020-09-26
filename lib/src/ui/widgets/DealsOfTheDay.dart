@@ -41,7 +41,7 @@ class _FourthlistState extends State<Fourthlist> {
       child: Column(
         children: <Widget>[
           Container(
-            height: MediaQuery.of(context).size.height / 6.5,
+            height: MediaQuery.of(context).size.height / 6,
             width: MediaQuery.of(context).size.width / 4,
             child: Image.asset(deal[index].imageUrl),
           ),
