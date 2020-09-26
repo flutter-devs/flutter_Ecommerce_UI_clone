@@ -54,7 +54,7 @@ class _DrawerfileState extends State<Drawerfile> {
     drawerItemModel.add(DrawerItemModel("Gift Card", null));
     drawerItemModel.add(DrawerItemModel("My Chats", null));
     drawerItemModel.add(DrawerItemModel("Help Centre", null));
-    drawerItemModel.add(DrawerItemModel("Legal", null));
+    drawerItemModel.add(DrawerItemModel("Logout", null));
   }
 
   buildItem(BuildContext context, int index) {

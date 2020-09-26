@@ -9,6 +9,7 @@ class _FifthlistState extends State<Fifthlist> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Colors.white,
       height: MediaQuery.of(context).size.height / 2.45,
       width: MediaQuery.of(context).size.width,
       child: Card(
