@@ -16,7 +16,7 @@ class _SeventhlistState extends State<Seventhlist> {
   }
 
   addDealItem() {
-    deal = List<deals>();
+    deal = <deals>[];
     deal.add(deals(
         "assets/phone.png",
         'Redmi Note 7 Pro',

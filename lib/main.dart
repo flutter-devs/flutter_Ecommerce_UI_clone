@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
         primaryColor: Color(0xff2874F0),
       ),
       routes: <String,WidgetBuilder>{
-        SPLASH_SCREEN: (BuildContext context)=> AnimatedSplashScreen(),
-        HOME_SCREEN: (BuildContext context)=> HomePage(),
+        splashScreen: (BuildContext context)=> AnimatedSplashScreen(),
+        homeScreen: (BuildContext context)=> HomePage(),
       },
       home: AnimatedSplashScreen(),
     );

@@ -16,7 +16,7 @@ class _FourthlistState extends State<Fourthlist> {
   }
 
   addDealItem() {
-    deal = List<deals>();
+    deal = <deals>[];
     deal.add(deals(
         "assets/female.png",
         'Dresses & Tops',
