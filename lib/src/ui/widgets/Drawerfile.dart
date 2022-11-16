@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'Drawerfile.dart';
 
 class Drawerfile extends StatefulWidget {
   @override
@@ -17,7 +16,7 @@ class _DrawerfileState extends State<Drawerfile> {
   }
 
   addDrawerItem() {
-    drawerItemModel = List<DrawerItemModel>();
+    drawerItemModel = <DrawerItemModel>[];
     drawerItemModel.add(DrawerItemModel("Flutter Devs Plus Zone",
         "https://rukminim1.flixcart.com/www/50/50/promos/11/07/2018/70e5346e-fce4-4718-8e56-27be8492faa5.png?q=80"));
     drawerItemModel.add(DrawerItemModel("Electronics",
